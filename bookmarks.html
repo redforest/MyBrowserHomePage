@@ -1,0 +1,246 @@
+﻿<html>
+<head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="./calendar.js"></script>
+    <script type="text/javascript">
+    
+        function calendar() {
+            var nowDateInfo = getNowDate();
+            document.getElementById("calendar").innerHTML = nowDateInfo;
+        }
+
+        function searchLowyat() {
+            window.location = "https://www.google.com/search?q=site%3Aforum.lowyat.net+abc+def&aq=f&oq=site%3Aforum.lowyat";
+        }
+
+        window.onload = calendar;
+    
+    </script>
+    <style type="text/css">
+        body {
+            font-family: "Microsoft Yahei";
+            font-size: 16px;
+            background: #666 url(./Morgan_Sessions.01.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover; 
+            -moz-background-size: cover; 
+            -o-background-size: cover; 
+            background-size: cover;
+        }
+        .main {
+            margin-left: 20px;
+            width: 320px;
+            float: left;
+        }
+        .clear {
+            clear: both;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        li {
+            margin: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            background: #333;
+        }
+        #right {
+            float: right;
+        }
+        #calendar {
+            clear: both;
+            width: 260px;
+            padding: 20px;
+            color: white;
+        }
+        #calendar span {
+            color: white;
+            background: #333;
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        #lowyat {
+            width: 260px;
+            padding: 20px;
+        }
+        #youtube-dl {
+            width: 260px;
+            padding: 20px;
+            color: white;
+        }
+        #youtube-dl ul {
+            padding: 0;
+            padding-left: 10px;
+        }
+        #youtube-dl ul li {
+            list-style-type: circle;
+        }
+        #keyword {
+            width: 300px;
+        }
+        .hidden {
+            display: none;
+        }
+        #local {
+            color: white;
+            clear: both;
+            padding: 20px;
+            width: 260px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="clear"></div>
+        <div class="section">
+            <h3>新闻·资讯</h3>
+            <ul>
+                <li><a href="http://www.jiemian.com">界面</a></li>
+                <li><a href="https://news.google.com.hk/">谷歌新闻</a></li>
+                <li><a href="http://www.thepaper.cn/">澎湃新闻</a></li>
+                <li><a href="http://www.ifeng.com/">凤凰网</a></li>
+                <li><a href="http://cn.nytimes.com/">纽约时报中文网</a></li>
+                <li><a href="http://www.malaysiakini.com/zh">当今大马</a></li>
+                <li><a href="http://news.seehua.com/">詩華資訊</a></li>
+                <li><a href="http://www.sinchew.com.my/">星洲网</a></li>
+                <li><a href="http://chinese.wsj.com/big5/index.asp">华尔街日报</a></li>
+                <li><a href="http://www.ftchinese.com/channel/lifestyle.html">FT中文网</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <h3>厨艺</h3>
+            <ul>
+                <li><a href="http://www.xiachufang.com/">下厨房</a></li>
+                <li><a href="http://www.meishichina.com/">美食天下</a></li>
+                <li><a href="http://www.karentsui.net/">Karen Petite Kitchen 我的手作料理</a></li>
+                <li><a href="http://hkcooking.com/">香港食谱</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <h3>博彩</h3>
+            <ul>
+                <li><a href="http://35.198.254.91/4d/index.php">4D搜索</a></li>
+                <li><a href="https://www.random.org/">RANDOM.ORG</a></li>
+                <li><a href="http://www.sportstoto.com.my/">多多</a></li>
+                <li><a href="http://totolive.sportstoto.com.my/stoto/popup_live_result.asp">多多 Live</a></li>
+                <li><a href="http://www.magnum4d.com.my/">万能</a></li>
+                <li><a href="http://www.check4d.com/">博彩成绩</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="clear"></div>
+        <div class="section">
+            <h3>我的书签</h3>
+            <ul>
+                <li><a href="https://www.ptt.cc/bbs/KR_Entertain/index.html">批踢踢實業坊 KR_Entertain</a></li>
+                <li><a href="http://mikanani.me/">蜜柑计划</a></li>
+                <li><a href="http://share.dmhy.org/">动漫花园</a></li>
+                <li><a href="https://acg.rip/">ACG.RIP</a></li>
+                <li><a href="http://www.xiniugushi.com/">犀牛故事</a></li>
+                <li><a href="http://pan.whatsoo.com/">百度云盘搜索</a></li>
+                <li><a href="http://www.engadget.com/">Engadget</a></li>
+                <li><a href="http://www.anandtech.com/">AnandTech</a></li>
+                <li><a href="http://wccftech.com/">WCCFtech</a></li>
+                <li><a href="http://arstechnica.com/">Ars Technica</a></li>
+                <li><a href="http://v2ex.com/">V2EX</a></li>
+                <li><a href="http://www.dutype.com/">独唱者</a></li>
+                <li><a href="http://www.guanggoo.com/">光谷社区</a></li>
+                <li><a href="https://www.upwork.com/">UpWork</a></li>
+                <li><a href="http://www.youtube.com/">YouTube</a></li>
+                <li><a href="http://forums.d2jsp.org">d2jsp</a></li>
+                <li><a href="http://jandan.net/">煎蛋</a></li>
+                <li><a href="http://www.weibo.com/">新浪微博</a></li>
+                <li><a href="http://www.verycd.com/">VeryCD</a></li>
+                <li><a href="http://bbs.3dmgame.com/">3DM Game</a></li>
+                <li><a href="http://www.awwwards.com/">Awwwards</a></li>
+                <li><a href="http://www.dailymotion.com">DailyMotion</a></li>
+                <li><a href="http://learnxinyminutes.com/">Learn X in Y Minutes</a></li>
+                <li><a href="http://www.hanfan.cc/variety">韩饭网</a></li></li>
+                <li><a href="http://devdocs.io/">DevDocs</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="clear"></div>
+        <div class="section">
+            <h3>&nbsp;</h3>
+            <ul>
+                <li><a href="http://yibian.hopto.org/">醫砭</a></li>
+                <li><a href="http://cht.a-hospital.com/w/">A+醫學百科</a></li>
+                <li><a href="https://www.douban.com/">豆瓣</a></li>
+                <li><a href="https://doc.rust-lang.org/book/">The Rust Programming Language</a></li>
+                <li><a href="http://readfree.me/">readfree</a></li>
+                <li><a href="http://www.dapenti.com/blog/index.asp">喷嚏网</a></li>
+                <li><a href="http://veerle.duoh.com/design">Veerle's Blog</a></li>
+                <li><a href="http://learnyouahaskell.com/chapters">Learn You a Haskell for Great Good!</a></li>
+                <li><a href="http://courses.csail.mit.edu/6.851/spring12/">Advanced Data Structures</a></li>
+                <li><a href="http://www.vividict.com/Default.aspx">象形字典</a></li>
+                <li><a href="http://www.lazada.com.my">Lazada</a></li>
+                <li><a href="http://www.lelong.com.my">Lelong</a></li>
+                <li><a href="http://www.houzz.com/">Houzz</a></li>
+                <li><a href="https://oj.leetcode.com/problemset/algorithms/">LeetCode</a></li>
+                <li><a href="http://2chcn.com/">2ch 中文网</a></li>
+                <li><a href="http://nymag.com/">NYMag</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+          <h3>网络小说</h3>
+          <ul>
+			<li><a href="http://35.198.254.91/xiaoshuo/index.php">看小说</a></li>
+            <li><a href="http://www.shumilou.org/">书迷楼</a></li>
+            <li><a href="http://www.piaotian.net/modules/article/bookcase.php">飘天</a></li>
+            <li><a href="http://www.uukanshu.net/">UU看书</a></li>
+          </ul>        
+        </div>        
+    </div>
+
+    <div id="right">
+        <div id="calendar">
+
+        </div>
+        <div id="lowyat">
+            <a href="https://www.google.com/search?newwindow=1&q=site%3Aforum.lowyat.net&oq=site%3Aforum.lowyat.net">Search lowyat.net</a><br /><br />
+            <a href="http://search.aol.com/aol/webhome?s_it=comsearch">AOL Search</a>
+        </div>
+        <div id="local">
+            <ul>
+                <li><a href="http://192.168.1.1/">Main Router (TRG212M)</a></li>
+                <li><a href="http://192.168.1.51/">Repeater (TL-WR891ND)</a></li>
+                <li><a href="http://192.168.1.5/">Asus-Tomato</a></li>
+                <li><a href="http://192.168.1.54:11111/">KIII - Himedia - HDP</a></li>
+                <li><a href="http://192.168.1.52:11111/">Himedia - HDP</a></li>
+                <li><a href="http://192.168.1.52:8050/">Himedia - 小薇直播</a></li>
+                <li><a href="http://ip.cn/">IP.cn</a></li>
+            </ul>
+        </div>
+        <div id="youtube-dl">
+            <p>youtube-dl format</p>
+            <ul>
+                <li>18 | MP4 | 270/360p</li>
+                <li>22 | MP4 | 720p</li>
+                <li>37 | MP4 | 1080p</li>
+            </ul>
+        </div>
+    </div>
+ 
+
+</body>
+
+</html>
