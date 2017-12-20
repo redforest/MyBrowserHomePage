@@ -1,0 +1,149 @@
+﻿<html>
+<head>
+    <title>中文网站书签</title>
+    <meta charset="UTF-8" />
+    <script type="text/javascript" src="./calendar.js"></script>
+    <script type="text/javascript">
+    
+        function calendar() {
+            var nowDateInfo = getNowDate();
+            document.getElementById("calendar").innerHTML = nowDateInfo;
+        }
+
+        window.onload = calendar;
+    
+    </script>
+    <style type="text/css">
+        body {
+            font-family: "Microsoft Yahei";
+            font-size: 20px;
+            background: url(./bg_blueprint_home_mid_temp.jpg);
+        }
+        .main {
+            margin-left: 20px;
+            width: 400px;
+            float: left;
+        }
+        .clear {
+            clear: both;
+        }
+        .section {
+            margin-bottom: 50px;
+        }
+        li {
+            margin: 10px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        a:visited {
+            color: white;
+        }
+        a:hover {
+            background: #333;
+        }
+        #calendar {
+            width: 300px;
+            float: right;
+            padding: 20px;
+            color: white;
+
+        }
+        #calendar span {
+            color: white;
+            background: #333;
+            display: inline-block;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        #notice {
+        	width: 400px;
+        	padding: 20px;
+        	color: white;
+        	float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="clear"></div>
+        <div class="section">
+            <h3>新闻·资讯</h3>
+            <ul>
+                <li><a href="http://www.wenxuecity.com/news/">文学城·新闻</a></li>
+                <li><a href="http://www.natgeomedia.com/category/news">国家地理杂志</a></li>
+                <li><a href="http://www.thepaper.cn/">澎湃</a></li>
+                <li><a href="https://news.google.com/news/?ned=hk&hl=zh-HK">谷歌新闻</a></li>
+                <li><a href="http://www.qq.com/">腾讯网</a></li>
+                <li><a href="http://www.ifeng.com/">凤凰网</a></li>
+                <li><a href="http://cn.nytimes.com/">纽约时报中文网</a></li>
+                <li><a href="http://www.sina.com.cn/">新浪网</a></li>
+                <li><a href="http://www.sinchew.com.my/">星洲网</a></li>
+                <li><a href="http://www.malaysiakini.com/zh">当今大马</a></li>
+                <li><a href="http://sports.163.com/ymq/">羽毛球新闻</a></li>
+                <li><a href="http://sports.163.com/ppq/">乒乓球新闻</a></li>
+                <li><a href="http://news.seehua.com/">诗华日报</a></li>
+                <li><a href="http://chinese.wsj.com/big5/index.asp">华尔街日报</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <h3>博彩</h3>
+            <ul>
+                <li><a href="http://www.check4d.com/">博彩成绩</a></li>
+                <li><a href="http://www.sportstoto.com.my/cn/">多多</a></li>
+                <!-- <li><a href="http://www.magnum4d.com.my/">万能</a></li> -->
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="clear"></div>
+        <div class="section">
+            <h3>百科·知识·杂志</h3>
+            <ul>
+                <li><a href="http://zh.wikipedia.org/wiki/Wikipedia:%E5%88%86%E9%A1%9E%E7%B4%A2%E5%BC%95">维基百科</a></li>
+                <li><a href="http://www.guokr.com/">果壳网</a></li>
+                <li><a href="http://www.dapenti.com/blog/index.asp">喷嚏网</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>        
+        <div class="section">
+            <h3>厨艺</h3>
+            <ul>
+                <li><a href="http://www.xiachufang.com/">下厨房</a></li>
+                <li><a href="http://www.meishichina.com/">美食天下</a></li>
+		        <li><a href="http://hkcooking.com/">香港食谱</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="section">
+            <h3>视频</h3>
+            <ul>
+                <li><a href="http://v.qq.com/">腾讯视频</a></li>
+                <li><a href="http://big5.huaxia.com/zhwh/wwtd/2014/02/3742600.html">沉香木與沉香不同</a></li>
+                <li><a href="http://collection.sina.com.cn/auction/pcdt/20140213/0752142717.shtml">1克顶级沉香价格高达数万</a></li>
+                <li><a href="http://video.brtn.cn/">北京电视视频</a></li>
+                <li><a href="https://www.youtube.com/playlist?list=PLGVMvawTidCy_T9xLAGSeUWT9iLue8GhQ">BTV 我是大医生</a></li>
+             </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <div id="calendar">
+
+    </div>
+<!--
+    <div id="notice">
+    	<br /><br /><br /><br /><br /><br /><br />
+    	<h3>Notes for Hong Jing</h3>
+        <p style="color:white;">WARNING: Opening Facebook in Chrome under Windows 8 might crash the system, use Internet Explorer.</p>
+        <p style="color:white;">Use private (incognito) window to log on GMail or any other Google Services, do not log out from the current account in the regular Chrome window</p>
+        <div class="clear"></div>
+    </div>    
+-->
+</body>
+</html>
