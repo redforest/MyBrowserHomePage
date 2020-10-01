@@ -1,0 +1,29 @@
+body {
+    margin: 20px;
+}
+.block {
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #333;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-sizing: content-box;
+    line-height: 1.5em;
+    display: inline-block;
+    margin: 20px;
+}
+
+.block ul {
+    list-style-type: none;
+}
+
+.disable-scrollbars::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* Chrome/Safari/Webkit */
+}
+
+.disable-scrollbars {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* IE 10+ */
+}
