@@ -68,6 +68,7 @@
 ~IRead @ http://www.iread.cf/
 ~LoreFree @ https://ebook2.lorefree.com/
 ~NYMag @ http://nymag.com/
+~鸠摩搜索 @ https://www.jiumodiary.com/
 <
 >购物
 ~Shopee @ https://shopee.com.my/
