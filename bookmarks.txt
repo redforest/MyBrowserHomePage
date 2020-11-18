@@ -58,7 +58,7 @@
 ~博彩成绩 @ http://www.check4d.com/
 ~4D Manager @ http://www.4dmanager.com/
 ~Ramdom.org @ https://www.random.org/
-~Ramdom 4D Generator @ https://numbergenerator.org/random-4-digit-number-generator#!start=true
+~Random 4D Generator @ https://numbergenerator.org/random-4-digit-number-generator#!start=true
 ~Random 6D Generator @ https://numbergenerator.org/random-6-digit-number-generator#!start=true
 <
 >阅读
