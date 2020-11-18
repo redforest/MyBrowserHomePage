@@ -8,6 +8,7 @@
 ~喷嚏网 @ http://www.dapenti.com/blog/index.asp
 <
 >新闻 · 资讯
+~Sarawak Disaster Info @ https://www.facebook.com/SarawakDisasterInfo/
 ~詩華資訊 @ http://news.seehua.com/
 ~东方日报 @ https://www.orientaldaily.com.my/
 ~联合日报 @ http://eunited.com.my/
@@ -57,7 +58,8 @@
 ~博彩成绩 @ http://www.check4d.com/
 ~4D Manager @ http://www.4dmanager.com/
 ~Ramdom.org @ https://www.random.org/
-~Ramdom 4D Generator @ https://numbergenerator.org/random-4-digit-number-generator#!start=false
+~Ramdom 4D Generator @ https://numbergenerator.org/random-4-digit-number-generator#!start=true
+~Random 6D Generator @ https://numbergenerator.org/random-6-digit-number-generator#!start=true
 <
 >阅读
 ~UU看书 @ http://www.uukanshu.com/
@@ -71,6 +73,7 @@
 ~NYMag @ http://nymag.com/
 ~鸠摩搜索 @ https://www.jiumodiary.com/
 ~拨云 @ https://www.boyunso.com/
+~知轩藏书 @ http://www.zxcs.me/
 <
 >购物
 ~Shopee @ https://shopee.com.my/
