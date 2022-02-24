@@ -22,7 +22,6 @@
 ~Malay Mail @ https://www.malaymail.com/
 ~New Straits Times @ https://www.nst.com.my/
 ~联合早报 @ https://www.zaobao.com.sg/
-~TRT国际新闻 @ https://www.trt.net.tr/chinese/guo-ji
 ~谷歌新闻 @ https://news.google.com/news/headlines/section/topic/WORLD.zh-TW_hk/%E5%9C%8B%E9%9A%9B?ned=hk&hl=zh-HK&gl=HK
 ~澎湃新闻 @ http://www.thepaper.cn/
 ~纽约时报中文网 @ http://cn.nytimes.com/
