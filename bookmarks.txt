@@ -74,7 +74,6 @@
 ~Z-Library @ https://book4you.org/
 ~ePUBee @ http://cn.epubee.com/books/
 ~PDF Drive @ https://www.pdfdrive.com/
-~IRead @ http://www.iread.cf/
 ~LoreFree @ https://ebook2.lorefree.com/
 ~NYMag @ http://nymag.com/
 ~鸠摩搜索 @ https://www.jiumodiary.com/

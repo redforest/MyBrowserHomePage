@@ -1,9 +1,4 @@
-youtube-dl format
+yt-dlp -f bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best youtube-url
 
-    18 | MP4 | 360p
-    135 | MP4 | 480p
-    136 | MP4 | 720p
-    137 | MP4 | 1080p
-    140 | M4A
-
-youtube-dl -f 136+140 --merge-output-format mp4 https://www.youtube.com/watch?v=-iclXHj6Ik4
+eg.:
+yt-dlp -f bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best https://www.youtube.com/watch?v=ZggS0Qi-XhM
