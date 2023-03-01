@@ -90,6 +90,7 @@
 ~Qoo10 @ https://www.qoo10.my/
 <
 >工具 · 网页应用
+~Nordvpn openvpn profiles @ https://nordvpn.com/ovpn/
 ~DeepL Translate @ https://www.deepl.com/en/translator#zh/en/
 ~Google Keep @ https://keep.google.com/
 ~Notion @ https://www.notion.so/
